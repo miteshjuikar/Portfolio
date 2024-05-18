@@ -1,0 +1,147 @@
+header {
+  font-size: 60px;
+  font-weight: 600;
+  color: var(--fontColor);
+  text-align: center;
+}
+
+.firstPage{
+    background-image: url(../assets/pxfuel.jpg);
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mesHi {
+    font-size: 50px;
+    font-weight: 600;
+    padding-left: 20px;
+}
+.name {
+  font-size: 80px;
+  font-weight: 600;
+  color: var(--fontColor);
+  padding: 0px 0px 10px 20px;
+}
+.discription {
+  width: 60%;
+  padding-left: 20px;
+}
+.fontColor {
+  color: var(--fontColor);
+}
+
+.right,
+.left {
+  width: 50%;
+}
+.right {
+  position: relative;
+}
+.left {
+  padding-left: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.humanImg {
+    position: absolute;
+    top: 33%;
+    left: 47%;
+    height: 200px;
+  }
+
+
+  /* Second Section */
+  .secondPage {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(0.47turn, #1c1d27 50%, #32343e 50% 90%);
+    gap: 7px;
+  }
+
+  .roller {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    border: 0px;
+    right: 0px;
+    top: 50vh;
+    opacity: 0;
+  }
+  .roller > img {
+    height: 50px;
+    width: 50px;
+    animation: spinReverse 3s linear infinite;
+  }
+
+  .focus_in_contract {
+    animation: focus-in-contract 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  }
+
+
+  /*                     -------- first project -----------               */
+.project1 {
+    display: flex;
+    align-items: center;
+    margin: 25px 0px;
+    gap: 10px;
+    justify-content: center;
+  }
+  .projectCard {
+    background-color: #32343e;
+    height: 500px;
+    border-radius: 10px 10px 0px 0px;
+    width: 500px;
+    padding: 5px;
+  }
+  .projectCard > p {
+    font-size: 45px;
+    padding: 21px 0px;
+    margin: 0px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+
+  .description {
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    display: flex;
+    background-color: #ffaf29eb;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .detail {
+    font-size: 20px;
+    height: 60%;
+    width: 70%;
+    text-align: center;
+  }
+
+  .moreDetailbtn {
+    height: 80px;
+    width: 80px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 10px;
+  }
+  .circular {
+    height: 50px;
+    width: 50px;
+    cursor: none;
+    border-radius: 50%;
+    background-color: #ffaf29eb;
+    border: 3px solid #fff;
+  }
+
+

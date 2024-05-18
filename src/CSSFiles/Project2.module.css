@@ -1,0 +1,23 @@
+.projectImg {
+    width: 100%;
+    position: relative;
+    background-color: #cccccc;
+    height: 82%;
+    padding: 0.8px;
+  }
+  .projectImg > img {
+    position: absolute;
+    margin: 3px;
+    width: 98%;
+    object-fit: fill;
+  }
+
+.projectImg2 {
+    background-color: var(--fontColor);
+  }
+  .projectImgsearch {
+    left: 1px;
+    height: 37px;
+    width: 107px;
+  }
+  

@@ -1,0 +1,59 @@
+  .htmlLogo,
+  .JSLogo,
+  .cssLogo,
+  .gitLogo,
+  .linuxLogo,
+  .vsLogo {
+    height: 75px;
+    position: absolute;
+  }
+  .htmlLogo {
+    top: 80px;
+    left: 137px;
+    transform: rotate(326deg);
+  }
+  .JSLogo {
+    top: 84px;
+    left: 317px;
+    transform: rotate(28deg);
+  }
+  .vsLogo {
+    top: 229px;
+    left: 34px;
+  }
+  .gitLogo {
+    bottom: 65px;
+    height: 97px;
+    right: 141px;
+    transform: rotate(148deg);
+  }
+  .cssLogo {
+    top: 235px;
+    right: 74px;
+    transform: rotate(91deg);
+  }
+  .linuxLogo {
+    bottom: 54px;
+    height: 110px;
+    left: 121px;
+    transform: rotate(213deg);
+  }
+  .reactLogo {
+    height: 540px;
+  }
+  .logo {
+    height: 540px;
+    width: 540px;
+    animation: spin 15s linear infinite;
+    position: relative;
+    top: 3%;
+    left: 15%;
+  }
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }

@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --fontColor: #ffaf29;
+    color: #ffffff;
+    font-family: Quicksand, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    color-scheme: light dark;
+    background-color: #1c1d27;
+    /* cursor: none; */
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    font-size: 21px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+    overflow-x: hidden;
+  }

@@ -1,0 +1,47 @@
+.projectImg {
+    width: 100%;
+    position: relative;
+    background-color: #cccccc;
+    height: 80%;
+    padding: 0.8px;
+  }
+  .projectImg > img {
+    position: absolute;
+    object-fit: fill;
+  }
+  .projectImgScore {
+    left: 37px;
+    height: 138px;
+    width: 219px;
+  }
+  .projectImgNavbar {
+    height: 99.7%;
+  }
+  .projectImgLogin {
+    right: 1px;
+    height: 138px;
+    width: 116px;
+  }
+  .projectImgFeedback {
+    right: 119px;
+    height: 137.5px;
+    width: 125px;
+  }
+  .projectImgSetting {
+    top: 140.5px;
+    left: 7.5%;
+    height: 170.5px;
+    width: 218px;
+  }
+  .projectImgGame1 {
+    top: 140.5px;
+    right: 1px;
+    height: 170.5px;
+    width: 243px;
+  }
+  .projectImgGame2 {
+    right: 1px;
+    bottom: 0.5px;
+    height: 88px;
+    width: 92.5%;
+  }
