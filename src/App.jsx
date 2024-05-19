@@ -180,7 +180,7 @@ function App() {
           at TCS (Tata Consultancy Services). My initial training took place in
           Mumbai, where I honed my coding skills and gained valuable insights.
           Post-training, I embarked on a professional journey as a software
-          engineer, landing a role on the SBI project located in Navi Mumbai. In
+          engineer, landing a role on the SBI project located in Navi Mumbai. In  
           this role, I specialize in utilizing technologies such as Git, Linux,
           and my personal favorite, React JS. I find immense joy in working with
           React and leveraging its capabilities to create innovative solutions.
