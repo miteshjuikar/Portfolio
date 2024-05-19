@@ -171,8 +171,7 @@ function App() {
        {/* <Star/>  */}
         <div className={style.aboutContainer}>
         <p className={style.aboutMePara}>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hello there! I'm Mitesh Juikar, and I'm from Pen, my mother's
-          hometown. My childhood was predominantly spent there, and it's also
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hello there! I'm Mitesh Juikar, and I'm from Pen. My childhood was predominantly spent there, and it's also
           where I completed my high school education. When it came time for
           graduation, I moved to Panvel, where I delved into the world of
           programming languages. During my academic journey, I developed a keen
