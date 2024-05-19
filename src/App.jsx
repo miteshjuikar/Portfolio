@@ -7,6 +7,7 @@ import Project1 from './Pages/Project1';
 import Project2 from './Pages/Project2';
 import aLogo from "./assets/arrow.svg";
 import { useState } from 'react';
+import Experience from './Pages/Experience';
 
 function App() {
 
@@ -124,6 +125,13 @@ function App() {
             </div>
           </div>
         </div>
+      </section>
+
+      <section className={style.thirdPage} >
+        <header className={`${scrollY >= 21 ? style.focus_in_contract : ""}`}>
+          Experience
+        </header>
+        <Experience />
       </section>
 
 

@@ -80,9 +80,9 @@ header {
   }
 
   .focus_in_contract {
-    animation: focus-in-contract 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+    animation: focus_in_contract 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
   }
-
+  
 
   /*                     -------- first project -----------               */
 .project1 {
@@ -144,4 +144,34 @@ header {
     border: 3px solid #fff;
   }
 
+
+
+/* -------------------------------- Third Page ----------------------------------- */
+
+.thirdPage {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-image: url(../assets/experiencebg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  align-items: center;
+  gap: 30px;
+}
+
+  .focus-in-contract {
+    animation: focus-in-contract 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  }
+  @keyframes focus-in-contract {
+    0% {
+      letter-spacing: 0.7em;
+      filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      filter: blur(0px);
+      opacity: 1;
+    }
+  }
 
