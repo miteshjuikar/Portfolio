@@ -191,6 +191,29 @@ function App() {
         </div>
       </section>
 
+    <footer className={style.footer} >
+    <div className={style.waves}>
+      <div className={style.wave} id={style.wave1}></div>
+      <div className={style.wave} id={style.wave2}></div>
+      <div className={style.wave} id={style.wave3}></div>
+      <div className={style.wave} id={style.wave4}></div>
+    </div>
+    <div className={style.footerData}>
+    <h2>Thanks for exploring my work!</h2>
+    <p className={style.footerDetail}>I'm passionate about creating innovative solutions that blend functionality and design. Each project in my portfolio represents a unique challenge I've embraced, showcasing my skills in web development, design, and problem-solving. I believe in the power of collaboration and am always eager to take on new and exciting projects. If you're interested in learning more about my work, have specific inquiries, or would like to discuss potential collaborations, I'd love to connect. Feel free to reach out—I'm here to bring your ideas to life!</p>
+    </div>
+    <div className={style.footerBottom}>
+    <ul className={style.social_icon}>
+      <li className={style.social_icon__item}><a className={style.social_icon__link} href="https://github.com/bhosaleparag">
+        <ion-icon name={style.logo_github}></ion-icon>
+        </a></li>
+      <li className={style.social_icon__item} ><a className={style.social_icon__link} href="https://www.linkedin.com/in/parag-bhosale-916878223/">
+          <ion-icon name={style.logo_linkedin} ></ion-icon>
+        </a></li>
+    </ul>
+    <p>&copy;2024 Mitesh Juikar | All Rights Reserved</p>
+    </div>
+  </footer>
 
 
 
