@@ -1,0 +1,9 @@
+.fourPage {
+    height: 100vh;
+    display: flex;
+    place-items: center;
+    flex-direction: column;
+    background: url("https://i.postimg.cc/c1Q3njM0/bg2.jpg");
+    background-size: cover;
+    animation: animateBg 50s linear infinite;
+  }

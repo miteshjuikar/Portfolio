@@ -6,14 +6,41 @@ import react from './assets/react-2.svg';
 import Project1 from './Pages/Project1';
 import Project2 from './Pages/Project2';
 import aLogo from "./assets/arrow.svg";
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import Experience from './Pages/Experience';
 import tataLogo from "./assets/tcs-logo-white-trans.png";
 
 function App() {
 
   const [scrollY, setScrollY] = useState(0);
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      const newY = Math.round(window.scrollY / 60);
+      setScrollY(newY);
+    });
+  }, []);
+  console.log(scrollY);
+  const [isButtonClicked, setIsButtonClicked] = useState([false, ""]);
+  const handleButtonClick = (val) => {
+    setIsButtonClicked([!isButtonClicked[0], val]);
+    setTimeout(() => {
+      if(val == "first"){
+        window.location.href = "https://typingtrainer51.netlify.app";
+      }else if(val == "second"){
+        window.location.href = "https://main--infofood.netlify.app";
+      }
+    }, 200);
+  };
 
+  const Star = () => {
+    const spans = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+    return (
+      <>
+        {spans.map(sp => <span key={sp} className={style.stars}></span>)}
+      </>
+    );
+  }
+  
   return (
     <>
     <div>
@@ -51,7 +78,7 @@ function App() {
           Personal Projects
         </header>
         <div className={style.project1}>
-          <div className={`${style.projectCard} ${scrollY >= 2 ? "slide-in-left" : ""}`}>
+          <div className={`${style.projectCard} ${scrollY >= 2 ? style.slide_in_left : ""}`}>
             <Project1 />
           </div>
           <div
@@ -59,9 +86,9 @@ function App() {
               scrollY >= 2 &&
               isButtonClicked[0] &&
               isButtonClicked[1] == "first"
-                ? "slide-out-fwd-center"
+                ? style.slide_out_fwd_center
                 : scrollY >= 2
-                ? "bounce-in-right"
+                ? style.bounce_in_right
                 : ""
             }`}
           >
@@ -89,7 +116,7 @@ function App() {
         <div className={style.project1}>
           <div
             style={{ backgroundColor: "#1c1d27" }}
-            className={`${style.projectCard} ${scrollY >= 10 ? "slide-in-left" : ""}`}
+            className={`${style.projectCard} ${scrollY >= 13 ? style.slide_in_left : ""}`}
           >
             <Project2 />
           </div>
@@ -98,9 +125,9 @@ function App() {
               scrollY >= 10 &&
               isButtonClicked[0] &&
               isButtonClicked[1] == "second"
-                ? "slide-out-fwd-center"
-                : scrollY >= 10
-                ? "bounce-in-right"
+                ? style.slide_out_fwd_center
+                : scrollY >= 13
+                ? style.bounce_in_right
                 : ""
             }`}
           >
@@ -137,6 +164,33 @@ function App() {
         <Experience />
       </section>
 
+      <section className={style.fourPage} >
+        <header className={`${scrollY >= 33 ? style.focus_in_contract : ""}`}>
+          About Me
+        </header>
+       {/* <Star/>  */}
+        <div className={style.aboutContainer}>
+        <p className={style.aboutMePara}>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hello there! I'm Mitesh Juikar, and I'm from Pen, my mother's
+          hometown. My childhood was predominantly spent there, and it's also
+          where I completed my high school education. When it came time for
+          graduation, I moved to Panvel, where I delved into the world of
+          programming languages. During my academic journey, I developed a keen
+          interest in coding, which eventually led me to a rewarding opportunity
+          at TCS (Tata Consultancy Services). My initial training took place in
+          Mumbai, where I honed my coding skills and gained valuable insights.
+          Post-training, I embarked on a professional journey as a software
+          engineer, landing a role on the SBI project located in Navi Mumbai. In
+          this role, I specialize in utilizing technologies such as Git, Linux,
+          and my personal favorite, React JS. I find immense joy in working with
+          React and leveraging its capabilities to create innovative solutions.
+          I am passionate about continuously learning and growing in the dynamic
+          field of software development. My experiences have equipped me with a
+          solid foundation, and I look forward to contributing my skills and
+          expertise to future endeavors.
+        </p>
+        </div>
+      </section>
 
 
 
