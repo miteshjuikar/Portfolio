@@ -61,7 +61,7 @@ header {
     display: flex;
     flex-direction: column;
     background: linear-gradient(0.47turn, #1c1d27 50%, #32343e 50% 90%);
-    gap: 7px;
+    gap: 5px;
   }
 
   .roller {
@@ -158,6 +158,12 @@ header {
   background-size: cover;
   align-items: center;
   gap: 30px;
+}
+
+.tataLogo {
+  margin-left: 12%;
+  height: 148px;
+  width: 272px;
 }
 
   .focus-in-contract {

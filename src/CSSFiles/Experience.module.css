@@ -1,25 +1,23 @@
+.experienceCard {
+  position: relative;
+  top: 99px;
+  border: 2px solid #6d73ff;
+  height: 288px;
+  width: 75%;
+  transition: 1s ease-in-out;
+  background-color: #1c0c2a;
+  transform-style: preserve-3d;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    border-radius: 5px;
+}
+
 .experienceCard:hover {
     transform: rotateY(0.5turn);
   }
-  .experienceCard {
-    position: relative;
-    border: 2px solid #6d73ff;
-    height: 470px;
-    width: 24%;
-    transition: 1s ease-in-out;
-    background-color: #1c0c2a;
-    transform-style: preserve-3d;
-    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
-      rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
-  }
 
-  .experienceCard {
-    width: 39%;
-  }
 
   .card_face > div {
-    padding: 7px;
-    margin-top: 10px;
     width: 95%;
   }
   .card_face {
@@ -27,12 +25,30 @@
     backface-visibility: hidden;
     transition: 1s ease-in-out;
   }
-
-  .tataLogo {
-    margin-left: 12%;
-    height: 148px;
-    width: 272px;
+  .backsideCard {
+    /* position: absolute;
+    top: 0;
+    left: 0; */
+    height: 288px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    transform: rotateY(0.5turn);
   }
+  
+  .backsideCard > img {
+    height: 160px;
+    width: 310px;
+    
+  }
+  /* .backsideCard img:nth-child(2) {
+    height: 130px;
+  }
+  .backsideCard img:nth-child(3) {
+    height: 169px;
+  } */
 
   .experienceDate {
     float: left;
@@ -42,33 +58,34 @@
   .experienceLocation > img {
     height: 23px;
   }
-  .experienceLocation {
+
+.experienceLocation {
     display: flex;
     float: right;
     font-size: 16px;
   }
+
   .experienceDetail {
-    width: 100px;
-    height: 140%;
+    ul {
+        display: block;
+        list-style-type: disc;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        padding-inline-start: 40px;
+        unicode-bidi: isolate;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
     font-size: medium;
-    padding-top: 0px;
-  }
-  .backsideCard {
-    position: absolute;
-    top: 0;
-    left: 0;
-    transform: rotateY(0.5turn);
-  }
-  
-  .backsideCard > img {
-    height: 160px;
-    width: 368px;
-  }
-  .backsideCard img:nth-child(2) {
-    height: 130px;
-  }
-  .backsideCard img:nth-child(3) {
-    height: 169px;
-  }
+} 
+.experienceHeading{
+    display: flex;
+    flex-direction: column;
+    margin: 2.5px;
+}
+
+
 
 

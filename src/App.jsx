@@ -8,6 +8,7 @@ import Project2 from './Pages/Project2';
 import aLogo from "./assets/arrow.svg";
 import { useState } from 'react';
 import Experience from './Pages/Experience';
+import tataLogo from "./assets/tcs-logo-white-trans.png";
 
 function App() {
 
@@ -129,7 +130,9 @@ function App() {
 
       <section className={style.thirdPage} >
         <header className={`${scrollY >= 21 ? style.focus_in_contract : ""}`}>
-          Experience
+        <div className={style.mainHeader}>
+            <img src={tataLogo} className={style.tataLogo} />
+        </div>
         </header>
         <Experience />
       </section>
