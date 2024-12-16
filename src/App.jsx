@@ -131,7 +131,13 @@ function App() {
             }`}
           >
             <div className={style.detail}>
-            Shop seamlessly with EShop, a modern e-commerce platform built using the MERN stack. Offering an intuitive interface for browsing, managing carts, and secure transactions, EShop features product categorization, user authentication, and order tracking. Admins can efficiently manage inventory with a comprehensive dashboard. Built with MongoDB, Express.js, React.js, Node.js, REST APIs, React Router, HTML, CSS, and JavaScript, EShop ensures a fast, scalable experience.
+            Indulge your senses with Food Info, the cutting-edge food web app
+              built using React. Whether you're a foodie searching for new
+              culinary experiences or someone looking for convenient meal ideas
+              or details, Food Info is your go-to platform for all things
+              food-related. It involves complete details about food health
+              Labels, calories, Nutrition, ingredients, and digest labels.
+              Technologies mostly used is HTML, CSS, JavaScript, React.js,
             </div>
             <div className={style.moreDetailbtn}>
               <button
