@@ -25,9 +25,9 @@ function App() {
     setIsButtonClicked([!isButtonClicked[0], val]);
     setTimeout(() => {
       if(val == "first"){
-        window.location.href = "https://typingtrainer51.netlify.app";
+        window.location.href = "https://speedscript.netlify.app/";
       }else if(val == "second"){
-        window.location.href = "https://main--infofood.netlify.app";
+        window.location.href = "https://eshop-npsv.onrender.com/";
       }
     }, 200);
   };
@@ -53,9 +53,8 @@ function App() {
           <span className={style.mesHi}>Hello There,</span>
           <span className={style.name}>I'm Mitesh</span>
           <span className={style.discription}>
-            Passionate React.js developer with a year of experience creating
-            clean, engaging interfaces. Eager to collaborate on innovative
-            projects.
+          Passionate MERN Stack Developer with a Year of Experience Building Dynamic Web Applications
+          Eager to Collaborate on Scalable, Full-Stack Solutions.
             <span className={style.fontColor}> Let's connect!</span>
           </span>
         </div>
@@ -93,7 +92,7 @@ function App() {
             }`}
           >
             <div className={style.detail}>
-              Typing Trainer web application using featuring email & password
+              Speed Script web application using featuring email & password
               login and one-click Google sign-in. The project includes profile
               personalization options, feedback and tips sections, a leaderboard
               system, and two interactive typing games. Firebase ensures secure
@@ -132,14 +131,7 @@ function App() {
             }`}
           >
             <div className={style.detail}>
-              Indulge your senses with Food Info, the cutting-edge food web app
-              built using React. Whether you're a foodie searching for new
-              culinary experiences or someone looking for convenient meal ideas
-              or details, Food Info is your go-to platform for all things
-              food-related. It involves complete details about food health
-              Labels, calories, Nutrition, ingredients, and digest labels.
-              Technologies mostly used is HTML, CSS, JavaScript, React.js,
-              React-Route, REST- API.
+            Shop seamlessly with EShop, a modern e-commerce platform built using the MERN stack. Offering an intuitive interface for browsing, managing carts, and secure transactions, EShop features product categorization, user authentication, and order tracking. Admins can efficiently manage inventory with a comprehensive dashboard. Built with MongoDB, Express.js, React.js, Node.js, REST APIs, React Router, HTML, CSS, and JavaScript, EShop ensures a fast, scalable experience.
             </div>
             <div className={style.moreDetailbtn}>
               <button
@@ -171,22 +163,7 @@ function App() {
        {/* <Star/>  */}
         <div className={style.aboutContainer}>
         <p className={style.aboutMePara}>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hello there! I'm Mitesh Juikar, and I'm from Pen. My childhood was predominantly spent there, and it's also
-          where I completed my high school education. When it came time for
-          graduation, I moved to Panvel, where I delved into the world of
-          programming languages. During my academic journey, I developed a keen
-          interest in coding, which eventually led me to a rewarding opportunity
-          at TCS (Tata Consultancy Services). My initial training took place in
-          Mumbai, where I honed my coding skills and gained valuable insights.
-          Post-training, I embarked on a professional journey as a software
-          engineer, landing a role on the SBI project located in Navi Mumbai. In  
-          this role, I specialize in utilizing technologies such as Git, Linux,
-          and my personal favorite, React JS. I find immense joy in working with
-          React and leveraging its capabilities to create innovative solutions.
-          I am passionate about continuously learning and growing in the dynamic
-          field of software development. My experiences have equipped me with a
-          solid foundation, and I look forward to contributing my skills and
-          expertise to future endeavors.
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I’m Mitesh Juikar, a passionate and result-driven MERN Stack developer with 3 years of experience at Tata Consultancy Services (TCS). Specializing in MongoDB, Express.js, React.js, and Node.js, I have built scalable, high-performance web applications with a solid foundation in both front-end and back-end technologies. Throughout my career, I’ve worked on various MERN stack projects, solving complex technical challenges, optimizing performance, and delivering user-centric interfaces. I have experience working with RESTful APIs, integrating third-party services, and implementing security protocols. I’m skilled in version control using Git, cloud deployment, and containerization technologies like Docker. A strong advocate for agile methodologies, I’ve collaborated with cross-functional teams to ensure efficient project delivery. With a passion for coding and a commitment to continuous learning, I stay updated with industry trends and am eager to contribute to innovative projects. I’m excited to expand my expertise in full-stack development and make meaningful contributions to the software development field.
         </p>
         </div>
       </section>
@@ -204,10 +181,10 @@ function App() {
     </div>
     <div className={style.footerBottom}>
     <ul className={style.social_icon}>
-      <li className={style.social_icon__item}><a className={style.social_icon__link} href="https://github.com/bhosaleparag">
+      <li className={style.social_icon__item}><a className={style.social_icon__link} href="https://github.com/miteshjuikar">
         <ion-icon name={style.logo_github}></ion-icon>
         </a></li>
-      <li className={style.social_icon__item} ><a className={style.social_icon__link} href="https://www.linkedin.com/in/parag-bhosale-916878223/">
+      <li className={style.social_icon__item} ><a className={style.social_icon__link} href="https://www.linkedin.com/in/mitesh-juikar/">
           <ion-icon name={style.logo_linkedin} ></ion-icon>
         </a></li>
     </ul>

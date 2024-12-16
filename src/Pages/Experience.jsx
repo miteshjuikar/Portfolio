@@ -18,45 +18,28 @@ export default function Experience() {
                 Navi Mumbai
                 </div>
             </div>
-            <div className={style.experienceDate} >SBI Smart Application</div>
+            <div className={style.experienceDate} >MERN Stack Developer</div>
           </div>
           <div className={style.experienceDetail} >
             <ul>
               <li>
-                Worked on a smart application for client SBI as Front End Developer.
+              <b>Node.js API Development:</b>Designed and implemented scalable, secure RESTful APIs using Node.js, Express, and MongoDB, reducing API response times by 30%.
               </li>
               <li>
-                Started with React JS as a fresher, where my primary responsibility was implementing Protected,
-                Router into the app And Identify user type to grant specific access.
+              <b>JWT Authentication:</b>Enhanced application security with JWT-based authentication and bcrypt encryption, ensuring safe user sessions. 
               </li>
               <li>
-                Collaborated closely with SBI stakeholders to gather requirements, ensuring a seamless 
-                integration with the ban Worked in tandem with cross-functional teams, including UX/UI 
-                designers and QA engineers, to deliver a us
+              <b>MongoDB Optimization:</b>Improved database performance using Mongoose aggregation pipelines and advanced indexing techniques. 
               </li>
+              <li>
+              <b>React Frontend Development:</b>Developed responsive, dynamic web pages with React, ensuring seamless integration with backend services and third-party APIs.  
+              </li>
+              <li>
+              <b>Agile Collaboration: </b>Actively contributed to Agile sprints, collaborating with cross-functional teams to deliver 10+ features ahead of deadlines.
+              </li>
+              
             </ul> 
-          </div>
-          <div className={style.experienceHeading}>
-              <div className={style.experienceDate} >SBI NBC Project</div>
-          </div>
-          <div className={style.experienceDetail} >
-            <ul>
-              <li>
-                The project focuses on SBI Bank, encompassing the development of a comprehensive system for 
-                all transactions executed by bankers. As the project nears its final development phase, it 
-                successfully went live last month.
-              </li>
-              <li>
-                Engaged in the development and maintenance of a web application utilizing the STRUTS 
-                framework. The project is grounded in the Struts framework, encompassing various 
-                functionalities.
-              </li>
-              <li>
-                Conducted regular code reviews and whipping up a training session for junior developers.
-              </li>
-            </ul> 
-          </div>
-          
+          </div>         
           
           </div>
           <div className={`${style.card_face} ${style.backsideCard}`}>
